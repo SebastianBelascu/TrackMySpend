@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import useServerDarkMode from '@/hooks/use-server-dark-mode';
 import { createClient } from '@/lib/supabase/server';
 import { KeyRound } from 'lucide-react';
 import { sizes, variants } from '@/lib/variants';
