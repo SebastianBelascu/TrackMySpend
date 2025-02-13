@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💰 TrackMySpend
 
-## Getting Started
+TrackMySpend is a **finance tracking app** built with **Next.js** and **Supabase**. It allows users to manage their expenses efficiently with real-time database updates, authentication via Magic Link, and custom filtering.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🛠 **Authentication with Supabase Magic Link**
+- 📊 **Add, Edit, and Delete financial transactions**
+- 🏦 **PostgreSQL database (via Supabase)**
+- 🔍 **Filters transactions by last 24 days, last 7 days, last 30 days, last 12 months**
+- 📝 **Input validation for all fields**
+- 🖼 **User profile with avatar upload (Supabase Bucket)**
+- ⚡ **Fast and real-time queries with Supabase**
+- 🎯 **Set a default dashboard view preference**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Supabase (PostgreSQL, Auth, Storage)
+- **Database:** PostgreSQL (via Supabase)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📸 Project Screenshots
 
-## Learn More
+🏠 Dashboard
+Displays recent transactions, filters, and total balance.
 
-To learn more about Next.js, take a look at the following resources:
+<br />
+<img src="public/screenshots/homepageadd.png" />
+<br />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📑 Add Transaction
+Form with input validation to add a new financial transaction.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<br />
+<img src="public/screenshots/financeadd.png" />
+<br />
 
-## Deploy on Vercel
+📑 Edit Transaction
+Form with input validation to add a new financial transaction.
+<br />
+<img src="public/screenshots/financeedit.png" />
+<br />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👤 Profile Settings
+User profile section where users can update their avatar.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br />
+<img src="public/screenshots/financepr1.png" />
+<br />
+<img src="public/screenshots/financepr2.png" />
+<br />
