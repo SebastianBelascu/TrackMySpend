@@ -25,27 +25,27 @@ TrackMySpend is a **finance tracking app** built with **Next.js** and **Supabase
 Displays recent transactions, filters, and total balance.
 
 <br />
-<img src="public/screenshots/homepageadd.png" />
+<img src="public/homepageadd.png" />
 <br />
 
 📑 Add Transaction
 Form with input validation to add a new financial transaction.
 
 <br />
-<img src="public/screenshots/financeadd.png" />
+<img src="public/financeadd.png" />
 <br />
 
 📑 Edit Transaction
 Form with input validation to add a new financial transaction.
 <br />
-<img src="public/screenshots/financeedit.png" />
+<img src="public/financeedit.png" />
 <br />
 
 👤 Profile Settings
 User profile section where users can update their avatar.
 
 <br />
-<img src="public/screenshots/financepr1.png" />
+<img src="public/financepr1.png" />
 <br />
-<img src="public/screenshots/financepr2.png" />
+<img src="public/financepr2.png" />
 <br />
